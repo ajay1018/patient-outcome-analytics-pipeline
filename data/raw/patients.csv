@@ -1,0 +1,9 @@
+patient_id,age,gender,diagnosis_code,outcome,visit_date
+1001,72,F,I10,improved,2024-03-01
+1002,58,M,E11,stable,2024-03-02
+1003,66,F,I21,readmit,2024-03-05
+1004,44,M,E78,improved,2024-03-10
+1005,51,F,E11,readmit,2024-03-12
+1006,63,M,I10,stable,2024-03-14
+1007,39,M,E78,improved,2024-03-15
+1008,77,F,I21,readmit,2024-03-18

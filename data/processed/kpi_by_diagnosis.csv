@@ -1,0 +1,5 @@
+diagnosis_code,patients,readmit_rate,improve_rate
+E11,2,0.5,0.0
+E78,2,0.0,1.0
+I10,2,0.0,0.5
+I21,2,1.0,0.0

@@ -1,0 +1,2 @@
+-- Warehouse/DWH target (demo)
+-- CREATE TABLE patient_outcomes (...);
