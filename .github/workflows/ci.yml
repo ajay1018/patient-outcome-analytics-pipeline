@@ -1,0 +1,25 @@
+name: CI (light)
+on:
+  push:
+  pull_request:
+jobs:
+  pipeline-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install minimal deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+      - name: Run extract
+        run: python src/extract/extract_local.py
+      - name: Run transform
+        run: python src/transform/transform_kpis.py
+      - name: Verify outputs
+        run: |
+          test -f data/processed/kpi_by_diagnosis.csv
+          test -f data/processed/kpi_daily.csv
+          echo '✅ outputs found.'
