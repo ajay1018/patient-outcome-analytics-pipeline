@@ -1,5 +1,7 @@
 # 🏥 Patient Outcome Analytics Pipeline
 
+![CI](https://github.com/ajay1018/patient-outcome-analytics-pipeline/actions/workflows/ci.yml/badge.svg?branch=main&cache=1761342759)
+
 Portfolio project demonstrating an end-to-end patient outcome analytics pipeline: **Extract → Transform → KPI Reporting** with clean DE structure, diagrams, and a sample dashboard image.
 
 ---
