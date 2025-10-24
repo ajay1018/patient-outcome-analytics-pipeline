@@ -1,5 +1,7 @@
 # 🏥 Patient Outcome Analytics Pipeline
 
+[**Design**](docs/Design.md) · [**CI**](.github/workflows/ci.yml)
+
 ![CI](https://github.com/ajay1018/patient-outcome-analytics-pipeline/actions/workflows/ci.yml/badge.svg?branch=main&cache=1761342759)
 
 Portfolio project demonstrating an end-to-end patient outcome analytics pipeline: **Extract → Transform → KPI Reporting** with clean DE structure, diagrams, and a sample dashboard image.
@@ -55,6 +57,8 @@ pip install -r requirements.txt
 python src/extract/extract_local.py
 python src/transform/transform_kpis.py
 # optional: Streamlit dashboard
+
+[**Design**](docs/Design.md) · [**CI**](.github/workflows/ci.yml)
 streamlit run dashboards/app.py
 ```
 
