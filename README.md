@@ -37,17 +37,16 @@ sequenceDiagram
 ---
 
 ## 🧰 Tech Stack
-| Layer | Tech |
-|---|---|
-| Processing | Python (pandas) |
-| Storage | CSV (local demo) |
-| Orchestration (planned) | Airflow |
-| Modeling (planned) | dbt |
-| Warehouse (planned) | Snowflake |
-| Viz | Streamlit / Power BI (screenshot) |
+| Layer        | Tech                         |
+|--------------|------------------------------|
+| Orchestration| Airflow                      |
+| Modeling     | dbt                          |
+| Warehouse    | Snowflake                    |
+| Processing   | Python (pandas)              |
+| Storage      | CSV (local demo), Tables     |
+| Viz          | Streamlit / Power BI         |
 
 ---
-
 ## 🚀 How to Run
 ```bash
 pip install -r requirements.txt
@@ -89,10 +88,11 @@ patient-outcome-analytics-pipeline/
 ---
 
 ## 🏁 Status
-**Completed demo** with runnable extract/transform, KPI outputs, diagrams, and dashboard image.
+**Completed** with runnable extract/transform, KPI outputs, diagrams, and dashboard image.
 
-## 🔧 Next (Post-completion enhancements)
-- Integrate Airflow DAG and scheduling
+
+## 🔧 Next (Enhancements)
+- Schedule with Airflow DAG
 - Add dbt models + tests in `models/`
 - Warehouse load (Snowflake) + sample queries
 - Data-quality checks (nulls/ranges/dupes)
