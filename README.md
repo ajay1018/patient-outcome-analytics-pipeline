@@ -88,13 +88,6 @@ patient-outcome-analytics-pipeline/
 ---
 
 ## 🏁 Status
-**Completed** with runnable extract/transform, KPI outputs, diagrams, and dashboard image.
+**Completed** — runnable extract/transform, KPI outputs, diagrams, and dashboard image.
 
-
-## 🔧 Next (Enhancements)
-- Schedule with Airflow DAG
-- Add dbt models + tests in `models/`
-- Warehouse load (Snowflake) + sample queries
-- Data-quality checks (nulls/ranges/dupes)
-- Power BI/Streamlit screenshots with filters
 
